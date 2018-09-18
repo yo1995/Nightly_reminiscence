@@ -1,0 +1,7 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Y="0" Height="720" Class="module" Comment="" Type="module" Parent="0" Name="clk_wiz" File="Current/clk_wiz.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+ <Port Width="15" X="-0.0141602" Y="0.238194" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="clk_wiz" Name="clk_in" Function="" Color="#faebd7"/>
+ <Port Width="15" X="-0.0141602" Y="0.488194" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="clk_wiz" Name="reset" Function="" Color="#00ffff"/>
+ <Port Width="15" X="0.984863" Y="0.238194" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="clk_wiz" Name="clk_out" Function="" Color="#7fffd4"/>
+ <Port Width="15" X="0.984863" Y="0.488194" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="clk_wiz" Name="locked" Function="" Color="#f0ffff"/>
+</Module>

@@ -1,0 +1,5 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Y="0" Height="720" Class="module" Comment="" Type="module" Parent="0" Name="count" File="Current/count.model" Code="reg [18:0] count;&#xa;&#xa;assign countmax = (count == 200000);&#xa;assign count =0;&#xa;&#xa;always @(posedge clk)&#xa;begin&#xa;if(countmax)&#xa;count &lt;= 0;&#xa;else&#xa;count &lt;= count + 1;&#xa;end" Parameters="" Color="#f5f5dc">
+ <Port Width="15" X="-0.0141602" Y="0.322917" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="count" Name="clk" Function="" Color="#faebd7"/>
+ <Port Width="15" X="0.984863" Y="0.322917" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="count" Name="countmax" Function="" Color="#00ffff"/>
+</Module>

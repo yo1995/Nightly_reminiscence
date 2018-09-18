@@ -1,0 +1,12 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Y="0" Height="720" Class="module" Comment="" Type="module" Parent="0" Name="pingpong" File="Current/pingpong.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+ <Port Width="15" X="-0.0141602" Y="0.136806" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong" Name="clk" Function="" Color="#faebd7"/>
+ <Port Width="15" X="-0.0141602" Y="0.272917" Height="15" Inout="input" Datasize="9" Datatype="wire" Side="left" Parent="pingpong" Name="counterX" Function="" Color="#00ffff"/>
+ <Port Width="15" X="-0.0141602" Y="0.411806" Height="15" Inout="input" Datasize="8" Datatype="wire" Side="left" Parent="pingpong" Name="counterY" Function="" Color="#7fffd4"/>
+ <Port Width="15" X="-0.0141602" Y="0.55625" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong" Name="inDisplayArea" Function="" Color="#f0ffff"/>
+ <Port Width="15" X="0.984863" Y="0.186806" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong" Name="R" Function="" Color="#ffe4c4"/>
+ <Port Width="15" X="0.984863" Y="0.386806" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong" Name="G" Function="" Color="#cd853f"/>
+ <Port Width="15" X="0.984863" Y="0.586806" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong" Name="B" Function="" Color="#ffebcd"/>
+ <Port Width="15" X="-0.0141602" Y="0.663194" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong" Name="btn0" Function="" Color="#ffebcd"/>
+ <Port Width="15" X="-0.0141602" Y="0.83125" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong" Name="btn3" Function="" Color="#0000ff"/>
+</Module>

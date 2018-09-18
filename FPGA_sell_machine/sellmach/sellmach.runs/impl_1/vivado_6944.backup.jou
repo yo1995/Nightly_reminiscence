@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun May 17 14:52:33 2015
+# Process ID: 4112
+# Log file: C:/Users/Administrator/Desktop/sellmach/sellmach.runs/impl_1/sell.vdi
+# Journal file: C:/Users/Administrator/Desktop/sellmach/sellmach.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sell.tcl -notrace

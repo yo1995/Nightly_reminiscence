@@ -1,0 +1,9 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Y="0" Height="720" Class="module" Comment="" Type="module" Parent="0" Name="hsync" File="Current/hsync.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+ <Port Width="15" X="-0.0141602" Y="0.322917" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="hsync" Name="clk" Function="" Color="#faebd7"/>
+ <Port Width="15" X="0.984863" Y="0.13125" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync" Name="vga_hsync" Function="" Color="#00ffff"/>
+ <Port Width="15" X="0.984863" Y="0.272917" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync" Name="vga_vsync" Function="" Color="#7fffd4"/>
+ <Port Width="15" X="0.984863" Y="0.411806" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync" Name="inDisplayArea" Function="" Color="#f0ffff"/>
+ <Port Width="15" X="0.984863" Y="0.55625" Height="15" Inout="output" Datasize="9" Datatype="reg" Side="right" Parent="hsync" Name="counterX" Function="" Color="#cd853f"/>
+ <Port Width="15" X="0.984863" Y="0.697917" Height="15" Inout="output" Datasize="8" Datatype="reg" Side="right" Parent="hsync" Name="counterY" Function="" Color="#ffe4c4"/>
+</Module>

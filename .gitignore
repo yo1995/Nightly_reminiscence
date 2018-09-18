@@ -1,0 +1,3 @@
+# just make my repo a verilog one, no html and js from Vivado
+*.html
+*.js

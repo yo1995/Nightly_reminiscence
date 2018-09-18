@@ -1,0 +1,11 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Time_Scale="" Y="0" Height="720" Class="module" Comment="" Type="testbench" Parent="0" Name="counttest" File="Current/counttest.test" Code="initial&#xa;begin&#xa;&#x9;clk=1'b0;&#xa;&#x9;#800000 $finish;&#xa;end&#xa;&#xa;always #1 clk=~clk;&#xa;" Color="#f5f5dc">
+ <Module Width="120" X="446.667" Y="302.667" Height="120" Class="count" Comment="" Type="model" Parent="counttest" Name="count1" File="Current/count.model" Code="reg [18:0] count;&#xa;&#xa;assign countmax = (count == 400000);&#xa;&#xa;always @(posedge clk)&#xa;begin&#xa;if(countmax)&#xa;;&#xa;else&#xa;count &lt;= count + 1;&#xa;end" Parameters="" Color="#f5f5dc">
+  <Port Width="15" X="-0.120833" Y="0.270833" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="count1" Name="clk" Function="" Color="#faebd7"/>
+  <Port Width="15" X="0.870833" Y="0.270833" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="count1" Name="countmax" Function="" Color="#00ffff"/>
+ </Module>
+ <Port Width="15" X="-0.0141602" Y="0.322917" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="counttest" Name="clk" Function="" Color="#faebd7"/>
+ <Port Width="15" X="0.984863" Y="0.322917" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="counttest" Name="countmax" Function="" Color="#00ffff"/>
+ <Wire Datasize="1" Datatype="wire" From="counttest>clk" To="counttest#count1>clk" Parent="counttest" Name="clk_clk" Color="#faebd7"/>
+ <Wire Datasize="1" Datatype="wire" From="counttest#count1>countmax" To="counttest>countmax" Parent="counttest" Name="countmax_countmax" Color="#00ffff"/>
+</Module>

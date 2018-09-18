@@ -1,0 +1,49 @@
+<!DOCTYPE Robei>
+<Module Width="1024" X="0" Y="0" Height="720" Class="module" Comment="" Type="module" Parent="0" Name="B" File="Current/pong.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+ <Module Width="120" X="166.12" Y="104.744" Height="120" Class="clk_wiz" Comment="" Type="model" Parent="B" Name="R" File="Current/clk_wiz.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+  <Port Width="15" X="-0.120833" Y="0.1875" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="R" Name="clk_in" Function="" Color="#faebd7"/>
+  <Port Width="15" X="-0.120833" Y="0.4375" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="R" Name="reset" Function="" Color="#00ffff"/>
+  <Port Width="15" X="0.870833" Y="0.1875" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="R" Name="clk_out" Function="" Color="#7fffd4"/>
+  <Port Width="15" X="0.870833" Y="0.4375" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="R" Name="locked" Function="" Color="#f0ffff"/>
+ </Module>
+ <Module Width="147" X="380.355" Y="483.53" Height="170" Class="hsync" Comment="" Type="model" Parent="B" Name="hsync2" File="Current/hsync.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+  <Port Width="15" X="-0.0986395" Y="0.285294" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="hsync2" Name="clk" Function="" Color="#faebd7"/>
+  <Port Width="15" X="0.894558" Y="0.0970588" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync2" Name="vga_hsync" Function="" Color="#00ffff"/>
+  <Port Width="15" X="0.894558" Y="0.238235" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync2" Name="vga_vsync" Function="" Color="#7fffd4"/>
+  <Port Width="15" X="0.894558" Y="0.379412" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="hsync2" Name="inDisplayArea" Function="" Color="#f0ffff"/>
+  <Port Width="15" X="0.894558" Y="0.520588" Height="15" Inout="output" Datasize="9" Datatype="reg" Side="right" Parent="hsync2" Name="counterX" Function="" Color="#cd853f"/>
+  <Port Width="15" X="0.894558" Y="0.661765" Height="15" Inout="output" Datasize="8" Datatype="reg" Side="right" Parent="hsync2" Name="counterY" Function="" Color="#ffe4c4"/>
+ </Module>
+ <Module Width="184" X="668.732" Y="203.719" Height="258" Class="pingpong" Comment="" Type="model" Parent="B" Name="pingpong3" File="Current/pingpong.model" Code="&#xa;&#xa;&#xa;" Parameters="" Color="#f5f5dc">
+  <Port Width="15" X="-0.0788043" Y="0.0949612" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong3" Name="clk" Function="" Color="#faebd7"/>
+  <Port Width="15" X="-0.0788043" Y="0.218992" Height="15" Inout="input" Datasize="9" Datatype="wire" Side="left" Parent="pingpong3" Name="counterX" Function="" Color="#00ffff"/>
+  <Port Width="15" X="-0.0788043" Y="0.343023" Height="15" Inout="input" Datasize="8" Datatype="wire" Side="left" Parent="pingpong3" Name="counterY" Function="" Color="#7fffd4"/>
+  <Port Width="15" X="-0.0788043" Y="0.467054" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong3" Name="inDisplayArea" Function="" Color="#f0ffff"/>
+  <Port Width="15" X="0.915761" Y="0.168605" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong3" Name="R" Function="" Color="#ffe4c4"/>
+  <Port Width="15" X="0.915761" Y="0.366279" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong3" Name="G" Function="" Color="#cd853f"/>
+  <Port Width="15" X="0.915761" Y="0.563953" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="pingpong3" Name="B" Function="" Color="#ffebcd"/>
+  <Port Width="15" X="-0.0788043" Y="0.591085" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong3" Name="btn0" Function="" Color="#ffebcd"/>
+  <Port Width="15" X="-0.0788043" Y="0.715116" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="pingpong3" Name="btn3" Function="" Color="#0000ff"/>
+ </Module>
+ <Port Width="15" X="-0.0141602" Y="0.278472" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="B" Name="clkl16" Function="" Color="#faebd7"/>
+ <Port Width="15" X="-0.0141602" Y="0.478472" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="B" Name="btn0" Function="" Color="#00ffff"/>
+ <Port Width="15" X="-0.0141602" Y="0.639583" Height="15" Inout="input" Datasize="1" Datatype="wire" Side="left" Parent="B" Name="btn3" Function="" Color="#7fffd4"/>
+ <Port Width="15" X="0.984863" Y="0.157639" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="B" Name="vga_hsync" Function="" Color="#f0ffff"/>
+ <Port Width="15" X="0.984863" Y="0.267361" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="B" Name="vga_vsync" Function="" Color="#cd853f"/>
+ <Port Width="15" X="0.984863" Y="0.435417" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="B" Name="R" Function="" Color="#ffe4c4"/>
+ <Port Width="15" X="0.984863" Y="0.559028" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="B" Name="G" Function="" Color="#cd853f"/>
+ <Port Width="15" X="0.984863" Y="0.765972" Height="15" Inout="output" Datasize="1" Datatype="wire" Side="right" Parent="B" Name="B" Function="" Color="#ffebcd"/>
+ <Wire Datasize="1" Datatype="wire" From="B#R>clk_out" To="B#hsync2>clk" Parent="B" Name="clk_out_clk" Color="#7fffd4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#hsync2>vga_hsync" To="B>vga_hsync" Parent="B" Name="vga_hsync_vga_hsync" Color="#00ffff"/>
+ <Wire Datasize="1" Datatype="wire" From="B#hsync2>vga_vsync" To="B>vga_vsync" Parent="B" Name="vga_vsync_vga_vsync" Color="#7fffd4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#R>clk_in" To="B>clkl16" Parent="B" Name="clk_in_clkl16" Color="#faebd7"/>
+ <Wire Datasize="1" Datatype="wire" From="B>btn0" To="B#pingpong3>btn0" Parent="B" Name="btn0_btn0" Color="#00ffff"/>
+ <Wire Datasize="1" Datatype="wire" From="B>btn3" To="B#pingpong3>btn3" Parent="B" Name="btn3_btn3" Color="#7fffd4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#hsync2>inDisplayArea" To="B#pingpong3>inDisplayArea" Parent="B" Name="inDisplayArea_inDisplayArea" Color="#f0ffff"/>
+ <Wire Datasize="9" Datatype="wire" From="B#hsync2>counterX" To="B#pingpong3>counterX" Parent="B" Name="counterX_counterX" Color="#cd853f"/>
+ <Wire Datasize="8" Datatype="wire" From="B#hsync2>counterY" To="B#pingpong3>counterY" Parent="B" Name="counterY_counterY" Color="#ffe4c4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#R>clk_out" To="B#pingpong3>clk" Parent="B" Name="clk_out_clk" Color="#7fffd4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#pingpong3>R" To="B>R" Parent="B" Name="R_R" Color="#ffe4c4"/>
+ <Wire Datasize="1" Datatype="wire" From="B#pingpong3>G" To="B>G" Parent="B" Name="G_G" Color="#cd853f"/>
+ <Wire Datasize="1" Datatype="wire" From="B#pingpong3>B" To="B>B" Parent="B" Name="B_B" Color="#ffebcd"/>
+</Module>
